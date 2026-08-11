@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//繧ｲ繝ｼ繝邨ゆｺ・
+//ゲームスタート
 public class End : MonoBehaviour
 {
     public string scene = "";
