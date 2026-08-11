@@ -1,5 +1,5 @@
 using UnityEngine;
-//ƒvƒŒƒCƒ„[‚ÌŒü‚«‚ğŒvZ
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®å‘ãã‚’è¨ˆç®—
 public class PlayerLookAt : MonoBehaviour
 {
     float Move;

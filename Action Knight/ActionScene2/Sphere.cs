@@ -1,5 +1,5 @@
 using UnityEngine;
-//ƒvƒŒƒCƒ„[‚É’Ç]‚µ‚È‚¢‹…
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«è¿½å¾“ã—ãªã„çƒ
 public class Sphere : MonoBehaviour
 {
     public float speed = 3f;

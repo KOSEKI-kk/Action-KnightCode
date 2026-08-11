@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//ƒQ[ƒ€I—¹
+//ç¹§ï½²ç¹ï½¼ç¹ï£°é‚¨ã‚†ï½ºãƒ»
 public class End : MonoBehaviour
 {
     public string scene = "";

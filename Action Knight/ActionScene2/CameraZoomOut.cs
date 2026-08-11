@@ -1,6 +1,6 @@
 using Unity.Cinemachine;
 using UnityEngine;
-//ƒJƒƒ‰‚ÌƒY[ƒ€ƒAƒEƒg
+//ã‚«ãƒ¡ãƒ©ã®ã‚ºãƒ¼ãƒ ã‚¢ã‚¦ãƒˆ
 public class CameraZoomOut : MonoBehaviour
 {
     public CinemachineCamera vcam;

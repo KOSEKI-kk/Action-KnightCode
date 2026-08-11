@@ -1,5 +1,5 @@
 using UnityEngine;
-//‰æ–Êã‚Ì•¶š‚ğÁ‚·
+//é€•ï½»é«±ï½¢è³ç¿«ãƒ»è­ãƒ»ï½­åŠ±ï½’è±¸åŒ»â˜†
 public class CanvasDelete : MonoBehaviour
 {
     //GameObject Canvas;

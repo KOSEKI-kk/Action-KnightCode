@@ -1,5 +1,5 @@
 using UnityEngine;
-//ƒvƒŒƒCƒ„[‚É’Ç]‚·‚é‹…
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«è¿½å¾“ã™ã‚‹çƒ
 public class SphereRoll : MonoBehaviour
 {
     public Transform player;
@@ -17,7 +17,7 @@ public class SphereRoll : MonoBehaviour
         Vector3 dir = (player.position - transform.position).normalized;
 
         Vector3 v = rb.linearVelocity;
-        v.x = dir.x * speed;   // ‰¡‚¾‚¯’Ç]
+        v.x = dir.x * speed;   // æ¨ªã ã‘è¿½å¾“
         rb.linearVelocity = v;
     }
 }

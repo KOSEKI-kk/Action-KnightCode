@@ -1,5 +1,5 @@
 using UnityEngine;
-//ƒvƒŒƒCƒ„[‚ÌƒAƒjƒ[ƒVƒ‡ƒ“§Œä
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³åˆ¶å¾¡
 public class PlayerAnimation : MonoBehaviour
 {
     public PlayerMove PlayerMove;
@@ -12,7 +12,7 @@ public class PlayerAnimation : MonoBehaviour
 
         if (PlayerMove.controller.isGrounded)
         {
-            //‘–‚è
+            //èµ°ã‚Š
             if (Move != 0)
             {
                 anim.SetBool("run", true);

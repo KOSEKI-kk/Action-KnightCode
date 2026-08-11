@@ -1,5 +1,5 @@
 using UnityEngine;
-//ƒvƒŒƒCƒ„[‘€ì
+//ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼æ“ä½œ
 public class PlayerMove : MonoBehaviour
 {
     public float speed = 10F;
@@ -15,19 +15,19 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        //’n–Ê‚É‚Â‚¢‚Ä‚¢‚é
+        //åœ°é¢ã«ã¤ã„ã¦ã„ã‚‹æ™‚
         if (controller.isGrounded)
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, 0);
-            //Transform.TransformDirection‚Íƒ[ƒJƒ‹‹óŠÔ‚©‚çƒ[ƒ‹ƒh‹óŠÔ‚Ö•ûŒüVector‚ğ•ÏŠ·‚·‚é
+            //Transform.TransformDirectionã¯ãƒ­ãƒ¼ã‚«ãƒ«ç©ºé–“ã‹ã‚‰ãƒ¯ãƒ¼ãƒ«ãƒ‰ç©ºé–“ã¸æ–¹å‘Vectorã‚’å¤‰æ›ã™ã‚‹
             moveDirection = transform.TransformDirection(moveDirection) * speed;
-            //ƒWƒƒƒ“ƒv«
+            //ã‚¸ãƒ£ãƒ³ãƒ—â†“
             if (Input.GetButton("Jump"))
             {
                 moveDirection.y = jumpSpeed;
             }
         }
-        //d—Í•ª•ÏX‚·‚é
+        //é‡åŠ›åˆ†å¤‰æ›´ã™ã‚‹
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
     }

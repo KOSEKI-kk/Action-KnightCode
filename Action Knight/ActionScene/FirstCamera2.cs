@@ -2,7 +2,7 @@ using Unity.Cinemachine;
 using UnityEngine;
 using System.Collections;
 using System;
-//Å‰‚ÉƒXƒe[ƒW‘S‘Ì‚ğŒ©‚¹‚é
+//æœ€åˆã«ã‚¹ãƒ†ãƒ¼ã‚¸å…¨ä½“ã‚’è¦‹ã›ã‚‹
 public class FirstCamera2 : MonoBehaviour
 {
     public CinemachineCamera vcam;

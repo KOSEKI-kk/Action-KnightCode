@@ -1,7 +1,7 @@
 using Unity.Cinemachine;
 using UnityEngine;
 using System.Collections;
-//Å‰‚ÉƒXƒe[ƒW‘S‘Ì‚ğŒ©‚¹‚é(‹Œ)
+//æœ€åˆã«ã‚¹ãƒ†ãƒ¼ã‚¸å…¨ä½“ã‚’è¦‹ã›ã‚‹(æ—§)
 public class FirstCamera : MonoBehaviour
 {
     public CinemachineCamera vcam;

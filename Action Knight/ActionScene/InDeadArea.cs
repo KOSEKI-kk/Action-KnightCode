@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-//ƒQ[ƒ€ƒI[ƒo[‚Ü‚½‚ÍƒXƒe[ƒWƒNƒŠƒA”»’è
+//ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼ã¾ãŸã¯ã‚¹ãƒ†ãƒ¼ã‚¸ã‚¯ãƒªã‚¢åˆ¤å®š
 public class InDeadArea : MonoBehaviour
 {
     public string scene = "";
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) // ƒvƒŒƒCƒ„[‚¾‚¯”½‰‚³‚¹‚é
+        if (other.CompareTag("Player")) // ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã ã‘åå¿œã•ã›ã‚‹
         {
             SceneManager.LoadScene(scene);
         }
