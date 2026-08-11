@@ -1,5 +1,5 @@
 using UnityEngine;
-//逕ｻ髱｢荳翫・譁・ｭ励ｒ豸医☆
+//画面上の文字を消す
 public class CanvasDelete : MonoBehaviour
 {
     //GameObject Canvas;
