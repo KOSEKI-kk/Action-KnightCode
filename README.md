@@ -16,13 +16,18 @@ You can play the game here:
 
 ### About
 
-This repository contains the source code used to develop the game.
+This repository contains the C# scripts used to develop the game.
 
 ### Development
 
-- Engine: Unity
+- Game Engine: Unity
+- Programming Language: C#
 - Genre: 2.5D Side-Scrolling Action
 - Purpose: School Festival Project
+
+### Development Process
+
+ChatGPT was used to assist with writing the C# scripts. I integrated the generated scripts into Unity and refined the camera, player movement, and overall gameplay feel through trial and error.
 
 ---
 
